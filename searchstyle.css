@@ -1,0 +1,33 @@
+body{
+	margin:0;
+	padding:0;
+	background:#FF4500;
+}
+label{
+	background:black;
+	color:white;
+	font-family:Helvetica;
+	font-size:20px;
+	
+}
+search-box 
+{
+	width:50px;
+	height:50px;
+	background:white;
+	
+}
+table, th, td {
+  border: 1px solid black;
+}
+th{
+background:aqua;
+font-family:Helvetica;
+font-size:28px;
+font-weight:bold;
+}
+td{
+font-size:21px;
+
+}
+

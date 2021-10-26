@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>
+            Contact Form
+        </title>
+        <link rel="stylesheet" type="text/css" href="new1.css">
+        
+           
+ 
+ 
+    <script type="text/javascript">
+        function validate_form() {
+            if (document.Contact.name.value == "") {
+                alert("Please fill in the 'Your  Name' box.");
+                return false;
+            }
+            
+            alert("sucessfully Submitted");
+ 
+ 
+ 
+            if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/).test(document.Course.email_id.value)) {
+                alert("You have entered an invalid email address!")
+                return (false)
+            }
+        }
+ 
+        
+        
+ 
+ 
+        
+    </script>
+ 
+</head>
+ 
+ <body>
+        <div class="title">
+            <h1> CONTACT US</h1>
+            <h2> We are Ready to lead you in future</h2>
+        </div>
+        <div class="box">
+          <form name="Contact" action="" onsubmit="return validate_form();" method="post">
+                <input type="text" name="name" class="form-control" placeholder="Enter your name" required><br>
+                <input type="email" name="email" class="form-control" placeholder="Enter your email address" required><br>
+                <textarea name="message"  class="form-control" placeholder="Message" rows="4" required></textarea><br>
+                 <input type="submit" value="submit" class="btn" onclick=" validate_form()" />
+                 
+                
+            </form>
+        </div>
+		<marquee><b> ehealthcare@gmail.com</b></marquee>
+    </body>
+</html>
+
+

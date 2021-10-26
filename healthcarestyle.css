@@ -1,0 +1,45 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+body{
+	background-image: url(https://cdn.pixabay.com/photo/2017/02/16/09/41/bless-you-2070882__340.jpg);
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.menu-bar
+{
+	background-color: silver;
+	text-align: center;
+
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color:black;
+}.menu-bar li{
+	width: 120px;
+	margin: 15px;
+	padding: 10px;
+
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color: #fff;
+
+}
+.active,.menu-bar ul li:hover{
+	background-color: black;
+	border-radius: 3px;
+
+}
+.menu-bar.fa
+{
+	margin-right: 8px;
+}
+
+
+
